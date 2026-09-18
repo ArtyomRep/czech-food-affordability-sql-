@@ -10,7 +10,6 @@ This script creates:
 -- ============================================================
 -- PRIMARY FINAL TABLE
 -- Czech wages and food prices for comparable years: 2006–2018
--- One row = year + industry + food category
 -- ============================================================
 
 CREATE TABLE t_artem_repin_project_SQL_primary_final AS
@@ -74,7 +73,6 @@ ORDER BY
 -- ============================================================
 -- SECONDARY FINAL TABLE
 -- Additional economic data for European countries
--- One row = country + year
 -- ============================================================
 
 CREATE TABLE t_artem_repin_project_SQL_secondary_final AS
