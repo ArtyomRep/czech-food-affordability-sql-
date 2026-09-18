@@ -4,8 +4,14 @@ This project analyses the development of average wages and food prices in the Cz
 
 ## Files in this repository
 
-- `project_SQL.sql` – SQL script for creating the final tables and answering the research questions.
+- `project_SQL.sql` – SQL script for creating the final tables.
 - `README.md` – description of the data preparation process, results, and data limitations.
+- `queries` - contains SQL analyses answering the five project research questions:
+  - `question_1_wage_development.sql` — Compares average wages in industries between 2006 and 2018.
+  - `question_2_bread_milk_affordability.sql` - Calculates how much bread and milk an average wage could buy in the first and final comparable years.
+  - `question_3_slowest_price_increase.sql` - Identifies the food category with the slowest average year-to-year price increase.
+  - `question_4_food_prices_vs_wages.sql` - Compares food-price growth with wage growth.
+  - `question_5_gdp_wages_food_prices.sql` - Compares GDP development with wage and food-price development.
 
 ## Final tables
 
