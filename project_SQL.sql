@@ -132,14 +132,14 @@ SELECT
         ELSE 'No change'
     END AS result
 FROM wage_comparison
-ORDER BY
-    wage_growth_percent;
+ORDER BY wage_growth_percent;
 
 
 -- ============================================================
 -- QUESTION 2
 -- How much bread and milk can an average wage buy in the first and final comparable years?
 -- ============================================================
+
 WITH annual_average_wages AS (
     SELECT
         year,
@@ -193,6 +193,7 @@ ORDER BY
 -- QUESTION 3
 -- Which food category has the slowest year-over-year price growth?
 -- ============================================================
+
 WITH unique_food_prices AS (
     SELECT DISTINCT
         year,
@@ -250,6 +251,7 @@ ORDER BY
 -- QUESTION 4
 -- Was there a year when food-price growth exceeded wage growth by more than 10 percentage points?
 -- ============================================================
+
  WITH unique_wages AS (
     SELECT DISTINCT
         year,
@@ -335,6 +337,7 @@ ORDER BY year;
 --  Does GDP affect changes in wages and food prices? In other words, if GDP rises more strongly in one year, does it lead to stronger wage or food-price growth in the same year
 --  or in the following year?
 -- ============================================================
+
 WITH unique_wages AS (
     SELECT DISTINCT
         year,
@@ -427,5 +430,4 @@ SELECT
         ORDER BY year
     ) AS next_year_food_price_growth_percent
 FROM annual_growth
-ORDER BY
-    year;
+ORDER BY year;
