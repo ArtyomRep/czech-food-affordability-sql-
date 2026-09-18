@@ -53,3 +53,11 @@ Food-price growth did not exceed wage growth by more than 10 percentage points i
 ### 5. Does GDP affect changes in wages and food prices? In other words, if GDP rises more strongly in one year, does it lead to stronger wage or food-price growth in the same year or in the following year?
 
 The data do not show a clear pattern that higher GDP growth automatically leads to faster wage growth or higher food prices. In some years, wages or food prices increased after GDP grew, but this was not consistent across the whole period. Therefore, GDP growth alone does not appear to be a reliable indicator of how wages and food prices will change in the same year or the following year.
+
+## Data limitations
+
+- The final primary table covers only the common period from 2006 to 2018.
+- Some food categories are not available in every year, so the number of year-to-year comparisons may differ between categories.
+- Wage and food-price figures are annual averages. They do not represent individual employees, Czech regions, specific shops, or individual product brands.
+- Wages are repeated across food categories in the primary table because each row combines one year, one industry, and one food category. The analytical queries remove these duplicates before calculating average wages.
+- The secondary table contains European countries, while the GDP analysis for Question 5 uses only the Czech Republic.
