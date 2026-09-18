@@ -15,8 +15,6 @@ This table contains data on average wages and food prices in the Czech Republic 
 
 Wage data were taken from the `czechia_payroll` table and joined with `czechia_payroll_industry_branch` to obtain industry names.
 
-Only records representing the average gross wage were used (`value_type_code = 5958`). Wage values were aggregated into annual averages for each industry.
-
 Food-price data were taken from the `czechia_price` table and joined with `czechia_price_category`. Prices were aggregated into annual average prices for each food category.
 
 The wage and food-price datasets were joined by year. Each row represents one year, one industry, and one food category.
@@ -34,3 +32,24 @@ This table contains additional data for European countries, including GDP, popul
 - Because the table joins industries with food categories, the same annual wage is repeated for each food category within an industry and year.
 - Queries focused only on wages use `DISTINCT` or aggregation to avoid counting repeated wages more than once.
 - The results show relationships in the available data but do not prove that one variable causes another.
+
+## Research question results
+
+### 1. Do wages increase in all industries during the observed period?
+
+Average wages increased in all 19 analysed industry branches between 2006 and 2018. No industry showed an overall decrease during this period.
+
+### 2. How much bread and milk can an average wage buy in the first and final comparable years?
+
+Purchasing power increased for both bread and milk between 2006 and 2018. The increase was modest for bread, while milk became noticeably more affordable relative to the average wage.
+
+### 3. Which food category has the slowest year-over-year price growth?
+The lowest average year-on-year price growth was recorded for granulated sugar (Cukr krystalový), at -1.92% 
+
+### 4.  Was there a year when food-price growth exceeded wage growth by more than 10 percentage points?
+
+Food-price growth did not exceed wage growth by more than 10 percentage points in any year between 2007 and 2018.
+
+### 5. Does GDP affect changes in wages and food prices? In other words, if GDP rises more strongly in one year, does it lead to stronger wage or food-price growth in the same year or in the following year?
+
+The data do not show a clear pattern that higher GDP growth automatically leads to faster wage growth or higher food prices. In some years, wages or food prices increased after GDP grew, but this was not consistent across the whole period. Therefore, GDP growth alone does not appear to be a reliable indicator of how wages and food prices will change in the same year or the following year.
