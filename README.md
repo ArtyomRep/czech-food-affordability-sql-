@@ -29,7 +29,7 @@ The wage and food-price datasets were joined by year. Each row represents one ye
 
 This table contains additional data for European countries, including GDP, population, and the GINI coefficient. It is used mainly for comparing the Czech Republic with other European countries and for answering the fifth research question.
 
-## Data notes
+## Data Preparation and Limitations
 
 - The common period for wage and food-price data is 2006–2018.
 - The primary table contains 6,498 rows.
