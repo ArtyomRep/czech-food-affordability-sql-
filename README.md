@@ -47,14 +47,14 @@ Average wages increased in all 19 analysed industry branches between 2006 and 20
 
 ### 2. How much bread and milk can an average wage buy in the first and final comparable years?
 
-Purchasing power increased for both bread and milk between 2006 and 2018. The increase was modest for bread, while milk became noticeably more affordable relative to the average wage.
+Purchasing power increased for both bread and milk between 2006 and 2018. An average wage could buy approximately 1,261.93 kg of bread in 2006 and 1,319.32 kg in 2018. For milk, it could buy approximately 1,408.75 litres in 2006 and 1,613.53 litres in 2018. The increase was modest for bread, while milk became noticeably more affordable relative to the average wage.
 
 ### 3. Which food category has the slowest year-over-year price growth?
 The lowest average year-on-year price growth was recorded for granulated sugar (Cukr krystalový), at -1.92% 
 
 ### 4.  Was there a year when food-price growth exceeded wage growth by more than 10 percentage points?
 
-Food-price growth did not exceed wage growth by more than 10 percentage points in any year between 2007 and 2018.
+Food-price growth did not exceed wage growth by more than 10 percentage points in any year between 2007 and 2018. The closest result occurred in 2013, when the difference was 6.66 percentage points; food prices decreased by 1.56%, while average wages increased by 5.10%.
 
 ### 5. Does GDP affect changes in wages and food prices? In other words, if GDP rises more strongly in one year, does it lead to stronger wage or food-price growth in the same year or in the following year?
 
